@@ -19,7 +19,7 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Report
                     </a>
-                    <a class="nav-link" href="add_video">
+                    <a class="nav-link" href="assign_vdo.php">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Add video
                     </a>
