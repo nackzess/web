@@ -7,7 +7,11 @@
     $topic = $_POST["topic"];
     $sec = $_POST["sec"];
     $link_vdo = $_POST["vdo"];
-    $passcode = $_POST["vdo_pass"];
+    if(empty($_POST["vdo_pass"])){
+        $passcode = '-';
+    } else {
+        $passcode = $_POST["vdo_pass"];
+    }
 
     
     $sql = "UPDATE section_".$sec." SET link_video = '$link_vdo' , passcode = '$passcode' WHERE topic = '$topic';";
