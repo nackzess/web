@@ -85,7 +85,7 @@
                     <div class="col-sm-12">Next class<br>
                         <!-- Next class show here. -->
                                 <div class="table-responsive">
-                                <table id="myTable" class="display nowrap table-hover" style="width:100%" class="table">
+                                <table id="myTable" class="display nowrap" style="width:100%">
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
