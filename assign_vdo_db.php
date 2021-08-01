@@ -10,7 +10,7 @@
     $passcode = $_POST["vdo_pass"];
 
     
-    $sql = "UPDATE section_".$sec." SET link_vdo = '$link_vdo' , link_vdo = '$passcode' WHERE topic = '$topic';";
+    $sql = "UPDATE section_".$sec." SET link_video = '$link_vdo' , passcode = '$passcode' WHERE topic = '$topic';";
     $query = mysql_query($sql) or die;
 
     echo "<script>alert('Assign Successfully...'); window.location='assign.php';</script>";
