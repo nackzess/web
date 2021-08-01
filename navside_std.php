@@ -13,9 +13,9 @@
                         Edit profile
                     </a>
 
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="video.php">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                        Video lesson (not update)
+                        Video lesson
                     </a>
 
                     <a class="nav-link" href="#">
