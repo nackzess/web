@@ -82,17 +82,14 @@
             <div class="container">
             
                 <div class="row">
-                <div class="col-9">Next class<br>
-                <!-- Next class show here. -->
-                <div class="fs-1">
-                 <p>
-
+                    <div class="col-sm-9">Next class<br>
+                        <!-- Next class show here. -->
+                                <div class="fs-1">
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Date</th>
-                                                <th>Role</th>
                                                 <th>Topic</th>
                                                 <th>Video</th>
                                                 <th>Passcode</th>
@@ -130,11 +127,10 @@
                                             </tr>
                                         </tfoot>
                                     </table>
+                                </div>
 
-                    </p>
-                    </div>    
-                </div>
-                    <div class="col-3" style="word-break: break-all; border:solid"><b>Announcement</b><hr>
+                    </div>
+                    <div class="col-sm-3" style="word-break: break-all; border:solid"><b>Announcement</b><hr>
                     <?= $msg; ?>
                     </div>
                 </div>
