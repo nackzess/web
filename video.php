@@ -86,23 +86,51 @@
                 <!-- Next class show here. -->
                 <div class="fs-1">
                  <p>
-                        <?php
-                            $today = date("Y-m-d");
-                            // // echo "$today";
-                            // // die ;
-                                for($i=1; $i<=$num2 ; $i++) {
-                                    $row = mysql_fetch_array($query2);
-                        ?>
-                                    
-                                    <?php echo $ID = $row['id']; ?>
-                                    <?php echo $date = $row['date']; ?>
-                                    <?php echo $topic = $row['topic']; ?>
-                                    <?php echo $vdo = $row['link_video']; ?>
-                                    <?php echo $passcode = $row['passcode']; ?>
 
-                        <?php        
-                            }
-                        ?>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Date</th>
+                                                <th>Role</th>
+                                                <th>Topic</th>
+                                                <th>Video</th>
+                                                <th>Passcode</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+                                            $today = date("Y-m-d");
+                                            // // echo "$today";
+                                            // // die ;
+                                                for($i=1; $i<=$num2 ; $i++) {
+                                                    $row = mysql_fetch_array($query2);
+                                                    $vdo = $row['link_video']; 
+                                        ?>
+                                                <tr>
+                                                    <td><?php echo $row['id']; ?></td>
+                                                    <td><?php echo  $row['date']; ?></td>
+                                                    <td><?php echo $row['topic']; ?></td>
+                                                    <td><a href="<?php echo $vdo ?>"><button type="button" class="btn btn-success">View</button></a></td>
+                                                    <td><?php echo $passcode = $row['passcode']; ?></td>
+                                                <tr>
+
+                                        <?php        
+                                            }
+                                        ?>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Date</th>
+                                                <th>Role</th>
+                                                <th>Topic</th>
+                                                <th>Video</th>
+                                                <th>Passcode</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+
                     </p>
                     </div>    
                 </div>
