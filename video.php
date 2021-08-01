@@ -99,9 +99,6 @@
                                         <?php
                                                 for($i=1; $i<=$num2 ; $i++) {
                                                     $row = mysql_fetch_array($query2);
-                                                    echo count($row);
-                                                    print_r ($row);
-
                                                     $vdo = $row['link_video']; 
                                         ?>
                                                 <tr>
