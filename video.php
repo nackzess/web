@@ -82,7 +82,7 @@
             <div class="container">
             
                 <div class="row">
-                    <div class="col-sm-9">Next class<br>
+                    <div class="col-sm-12">Next class<br>
                         <!-- Next class show here. -->
                                 <div class="fs-1">
                                     <table class="table table-hover">
@@ -97,9 +97,6 @@
                                         </thead>
                                         <tbody>
                                         <?php
-                                            $today = date("Y-m-d");
-                                            // // echo "$today";
-                                            // // die ;
                                                 for($i=1; $i<=$num2 ; $i++) {
                                                     $row = mysql_fetch_array($query2);
                                                     $vdo = $row['link_video']; 
@@ -108,7 +105,7 @@
                                                     <td><?php echo $row['id']; ?></td>
                                                     <td><?php echo  $row['date']; ?></td>
                                                     <td><?php echo $row['topic']; ?></td>
-                                                    <td><a href="<?php echo $vdo ?>"><button type="button" class="btn btn-success">View</button></a></td>
+                                                    <td><a href="<?php echo $vdo ?>"><button type="button" class="btn btn-success btn-lg" >View</button></a></td>
                                                     <td><?php echo $passcode = $row['passcode']; ?></td>
                                                 <tr>
 
@@ -129,9 +126,6 @@
                                     </table>
                                 </div>
 
-                    </div>
-                    <div class="col-sm-3" style="word-break: break-all; border:solid"><b>Announcement</b><hr>
-                    <?= $msg; ?>
                     </div>
                 </div>
                 
