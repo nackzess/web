@@ -92,6 +92,9 @@
                                     <div class="col-sm-12">
                                         <input type="text" name="vdo" class="form-control" required placeholder="Enter Url Video">
                                     </div>
+                                    <div class="col-sm-12">
+                                        <input type="text" name="vdo_pass" class="form-control" required placeholder="Enter Passcode Video">
+                                    </div>
 
 
                                     <div class="form-group">
