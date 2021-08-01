@@ -99,6 +99,7 @@
                                         <?php
                                                 for($i=1; $i<=$num2 ; $i++) {
                                                     $row = mysql_fetch_array($query2);
+                                                    print_r ($row);
                                                     $vdo = $row['link_video']; 
                                         ?>
                                                 <tr>
