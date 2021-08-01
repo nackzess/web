@@ -40,9 +40,9 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Assign</h1>
+                    <h1 class="mt-4">Assign video</h1>
                     <ol class="breadcrumb mb-4">
-                        <li class="breadcrumb-item active">assign class</li>
+                        <li class="breadcrumb-item active">add video ย้อนหลังเกี่ยวกับการสอน</li>
                     </ol>
 
                     <div>
@@ -93,7 +93,7 @@
 
                                     <div class="form-group">
                                         <div class="col-sm-12 mt-3">
-                                            <input type="submit" name="btn_assign" class="btn btn-primary" style="width: 100%;" value="Assign">
+                                            <input type="submit" name="btn_assign" class="btn btn-primary" style="width: 100%;" value="Add Video">
                                         </div>
                                     </div>
                                 </div>
