@@ -92,6 +92,7 @@
                                     <div class="col-sm-12">
                                         <input type="text" name="vdo" class="form-control" required placeholder="Enter Url Video">
                                     </div>
+                                    <label for="link_vdo" class="col-sm-3 control-label">Video Passcode</label><br>
                                     <div class="col-sm-12">
                                         <input type="text" name="vdo_pass" class="form-control" required placeholder="Enter Passcode Video">
                                     </div>
