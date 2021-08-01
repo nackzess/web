@@ -50,13 +50,6 @@
                             <form action="assign_vdo_db.php" method="post" class="form-horizontal my-5">
 
                                 <div class="form-group">
-                                    <label for="date" class="col-sm-3 control-label">Date</label>
-                                    <div class="col-sm-12">
-                                        <input id="datepicker" type="text" name="date" class="form-control" required placeholder="Enter Date">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
                                     <label for="topic" class="col-sm-3 control-label">Topic</label>
                                     <div class="col-sm-12">
                                     <select class="form-select" name="topic" aria-label="Default select example" required placeholder="Select topic">
