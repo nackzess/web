@@ -63,7 +63,7 @@
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid px-4">
-                <h1 class="mt-4">Hello</h1>
+                <h1 class="mt-4">Video Lessons</h1>
                 <ol class="breadcrumb mb-4">
                     <li class="breadcrumb-item active"><?php if(isset($_SESSION['id'])) { ?>
                 Welcome, <?php echo $result_std['nickname']; }
@@ -102,11 +102,11 @@
                                                     $vdo = $row['link_video']; 
                                         ?>
                                                 <tr>
-                                                    <td><?php echo $row['id']; ?></td>
-                                                    <td><?php echo  $row['date']; ?></td>
-                                                    <td><?php echo $row['topic']; ?></td>
+                                                    <td><p><?php echo $row['id']; ?></p></td>
+                                                    <td><p><?php echo  $row['date']; ?></p></td>
+                                                    <td><p><?php echo $row['topic']; ?></p></td>
                                                     <td><a href="<?php echo $vdo ?>"><button type="button" class="btn btn-success btn-lg" >View</button></a></td>
-                                                    <td><?php echo $passcode = $row['passcode']; ?></td>
+                                                    <td><p><?php echo $passcode = $row['passcode']; ?></p></td>
                                                 <tr>
 
                                         <?php        
@@ -117,7 +117,6 @@
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Date</th>
-                                                <th>Role</th>
                                                 <th>Topic</th>
                                                 <th>Video</th>
                                                 <th>Passcode</th>
