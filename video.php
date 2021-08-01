@@ -90,35 +90,17 @@
                             $today = date("Y-m-d");
                             // // echo "$today";
                             // // die ;
-                                for($i=1; $i<=$num2 ; $i++) { 
+                                for($i=1; $i<=$num2 ; $i++) {
                                     $row = mysql_fetch_array($query2);
-                                    $ID = $row['id'];
-                                    $date = $row['date'];
-                                    $topic = $row['topic'];
-                                    $vdo = $row['link_video'];
-                                    $passcode = $row['passcode'];
+                        ?>
+                                    
+                                    <?php echo $ID = $row['id']; ?>
+                                    <?php echo $date = $row['date']; ?>
+                                    <?php echo $topic = $row['topic']; ?>
+                                    <?php echo $vdo = $row['link_video']; ?>
+                                    <?php echo $passcode = $row['passcode']; ?>
 
-                                if($date >= $today){
-                                    echo "$date"."&nbsp;&nbsp;&nbsp;&nbsp;";
-                                    echo "$topic"."&nbsp;&nbsp;&nbsp;&nbsp;";
-                                
-                                    if($row['teacher'] == 1){
-                                        // echo '<a href="https://us02web.zoom.us/j/2311773138#success" target="_blank">Link</a>';
-                                        echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://us02web.zoom.us/j/2311773138#success" target="_blank">Link</a>';
-                                        
-                                    }elseif($row['teacher'] == 2){
-                                        // echo '<a href="https://www.google.co.th/" target="_blank">Link</a>';
-                                        echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.co.th/" target="_blank">Link</a>';
-
-                                        
-
-                                    }else{
-                                        // echo '<a href="https://www.youtube.com/" target="_blank">Link</a>';
-                                        echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/" target="_blank">Link</a>';
-                                    }
-                            
-                                ?></p><?php 
-                                }
+                        <?php        
                             }
                         ?>
                     </p>
