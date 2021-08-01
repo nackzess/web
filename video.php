@@ -105,7 +105,7 @@
                                                     <td><p><?php echo $row['id']; ?></p></td>
                                                     <td><p><?php echo  $row['date']; ?></p></td>
                                                     <td><p><?php echo $row['topic']; ?></p></td>
-                                                    <td><a href="<?php echo $vdo ?>"><button type="button" class="btn btn-success btn-lg" >View</button></a></td>
+                                                    <td><a href="<?php echo $vdo ?>" target="_blank"><button type="button" class="btn btn-success btn-lg" >View</button></a></td>
                                                     <td><p><?php echo $passcode = $row['passcode']; ?></p></td>
                                                 <tr>
 
