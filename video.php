@@ -82,7 +82,7 @@
             <div class="container">
             
                 <div class="row">
-                    <div class="col-sm-12">Next class<br>
+                    <div class="col-sm-12">
                         <!-- Next class show here. -->
                                 <div class="table-responsive">
                                 <table id="myTable" class="table table-bordered table-hover" style="width:100%">
