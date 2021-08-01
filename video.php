@@ -84,8 +84,8 @@
                 <div class="row">
                     <div class="col-sm-12">Next class<br>
                         <!-- Next class show here. -->
-                                <div class="fs-1">
-                                    <table class="table table-hover">
+                                <div class="table-responsive">
+                                <table id="myTable" class="display nowrap table-hover" style="width:100%" class="table">
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
