@@ -75,6 +75,19 @@
 
 
                                 <div class="form-group">
+                                    <label for="section" class="col-sm-3 control-label">section</label><br>
+                                    <div class="col-sm-12">
+                                        <select class="form-select" name="sec" required placeholder="Select Section">
+                                            <option selected>Open this select section</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
                                     <label for="link_vdo" class="col-sm-3 control-label">Link Video</label><br>
                                     <div class="col-sm-12">
                                         <input type="text" name="vdo" class="form-control" required placeholder="Enter Url Video">
